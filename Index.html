@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device=width, initial-scale=1.0">
+    <title>Photo Slideshow</title>
+    <link rel="stylesheet" href="marstyle.css">
+</head>
+    <body>
+        <div class="slideshow-container">
+            <div class="slide">
+                <img src="images (1).jpg"/>
+            </div>
+            <div class="slide">
+                <img src="images.jpg"/>
+            </div>
+            <div class="slide">
+                <img src="kawasan_falls.jpg"/>
+            </div>
+                <div class="dots">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+                <button class="prev" onclick="prevslide()">&#10094</button>
+                <button class="next" onclick="nextslide()">&#10095</button>
+             </div>
+        </div>
+        <script src="marslider.js"></script>
+</body>
+</html>
